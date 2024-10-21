@@ -11,7 +11,6 @@ public class Exercise03 {
         WebDriver driver = new ChromeDriver();
         driver.get("https://rawal-admin.themes-coder.net/admin/login");
         driver.manage().window().maximize();
-
         WebElement email = driver.findElement(By.id("email"));
         email.sendKeys("admin@email.com");
         WebElement password = driver.findElement(By.id("password"));

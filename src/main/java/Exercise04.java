@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 public class Exercise04 {
     @Test
     public void testPaymentAdjust() throws InterruptedException {
+        //open web
         WebDriver driver = new ChromeDriver();
         driver.get("https://rawal-admin.themes-coder.net/admin/login");
         driver.manage().window().maximize();
