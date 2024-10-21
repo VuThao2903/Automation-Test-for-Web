@@ -38,7 +38,5 @@ public class Exercise03 {
         Assert.assertTrue(action.isDisplayed()," Action column is not displayed");
 
         driver.quit();
-
-
     }
 }
