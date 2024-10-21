@@ -9,7 +9,6 @@ import org.testng.annotations.Test;
 public class Exercise01 {
     @Test
     public void testInput(){
-
         WebDriver driver = new ChromeDriver();
         driver.get("https://rawal-admin.themes-coder.net/admin/login");
         driver.manage().window().maximize();
